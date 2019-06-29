@@ -1,3 +1,4 @@
+ /* <!-- index html, header, container, and background --> */
 * {
     box-sizing: border-box;
     margin: 0px auto 0px auto;
@@ -19,7 +20,6 @@ body {
 }
 
 header {
-
     width: 960px;
 }
 
@@ -39,12 +39,16 @@ li {
     right: 0px;
     float: right;
     margin: 1em;
-    font-family: 'arial', 'helvetica neue', Helvetica, sans-serif;
+    font-family: 'arial', 'helvetica neue', Helvetica, sans-serif; 
 }
 
 a {
     color: #777777;
     text-decoration: none;
+}
+
+a:hover {
+    color: #4aaaa5;
 }
 
 .menu {
@@ -56,7 +60,7 @@ a {
     width: 960px;
     background: #ffffff;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     padding: 20px;
 }
 
@@ -67,6 +71,7 @@ a {
     margin: 10px auto 10px auto;
     padding-bottom: 10px;
     border-bottom: 1px solid #dddddd;
+    font-weight: 550;
 
 }
 
@@ -75,10 +80,11 @@ article {
 }
 
 #pic {
-    width: 25%;
-    height: 25%;
+    width: 27%;
+    height: 27%;
     float: left;
     margin-right: 20px;
+    margin-bottom: 10px;
 }
 
 footer {
@@ -95,6 +101,8 @@ footer {
     bottom: 0px;
 }
 
+
+/* <!-- portfolio css --!> */
 
 .image1 {
     position: relative;
@@ -133,10 +141,14 @@ footer {
     bottom: 10px;
     background: #4aaaa5;
     color: white;
-    width: 250px;
+    width: 280px;
     padding: 10px;
     text-align: center;
 }
+
+/* <!-- contact css --> */
+
+
 .contact-info {
     font-family: 'Arial', 'Helvetica neue', Helvetica, sans-serif;
     color: #777777;
