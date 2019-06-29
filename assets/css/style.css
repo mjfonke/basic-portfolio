@@ -4,21 +4,29 @@
 }
 
 body {
-    width: 960px;
+    background-image: url("../images/what-the-hex.png");
+    background-repeat: repeat;
+    font-family: 'georgia', 'Times New Roman', Times, serif;
     
 }
 
 .header {
     background: #ffffff;
-    width: 960px;
-    padding: 30px;
     margin: 0px;
+    border-bottom: 1px solid #cccccc;
+    overflow: auto;
+}
+
+header {
+
+    width: 960px;
 }
 
 .name {
     background: #4aaaa5;
     color: #ffffff; 
     font-size: 20px;
+    font-weight: bold;
     text-align: center;
     width: 200px;
     padding: 20px;
@@ -27,22 +35,58 @@ body {
 
 li {
     display: inline;
-    color: #777777;
-    text-align: right;
     right: 0px;
     float: right;
+    margin: 1em;
+    font-family: 'arial', 'helvetica neue', Helvetica, sans-serif;
+}
 
+a {
+    color: #777777;
+    text-decoration: none;
+}
+
+.menu {
+    margin: 1px;
+}
+
+.wrapper {
+    width: 960px;
+    background: #ffffff;
+    margin-top: 40px;
+    padding: 20px;
 }
 
 .aboutme {
     clear: both;
+    color: #4aaaa5;
+    font-size: 23px;
+    margin: 10px auto 10px auto;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #dddddd;
 
 }
 
+article {
+    margin-top: 20px;
+}
+
 #pic {
-    width: 20%;
-    height: 20%;
+    width: 25%;
+    height: 25%;
     float: left;
+    margin-right: 20px;
+}
+
+footer {
+    background: #666666;
+    border-top: 3px solid #4aaaa5;
+    height: 50px;
+    margin: 0px;
+    text-align: center;
+    vertical-align: baseline;
+    color: #ffffff;
+    font-size: 10px;
 
 }
 
