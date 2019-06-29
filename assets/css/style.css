@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin: 0px auto 0px auto;
+}
+
+body {
+    width: 960px;
+    
+}
+
+.header {
+    background: #ffffff;
+    width: 960px;
+    padding: 30px;
+    margin: 0px;
+}
+
+.name {
+    background: #4aaaa5;
+    color: #ffffff; 
+    font-size: 20px;
+    text-align: center;
+    width: 200px;
+    padding: 20px;
+    float: left;
+}
+
+li {
+    display: inline;
+    color: #777777;
+    text-align: right;
+    right: 0px;
+    float: right;
+
+}
+
+.aboutme {
+    clear: both;
+
+}
+
+#pic {
+    width: 20%;
+    height: 20%;
+    float: left;
+
+}
+
